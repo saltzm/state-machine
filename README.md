@@ -15,7 +15,7 @@ Compiling versions of these can be found [here](https://godbolt.org/z/oKWTTWqrP)
 ## State machine with a single state that accepts a single message type
 
 ```c++
-struct Msg1{};
+struct Msg1 {};
 
 class SingleStateSingleMessageMachine { 
 public:
@@ -63,9 +63,9 @@ int main() {
 ## State machine with a multiple states and message types
 
 ```c++
-struct Msg1{};
-struct Msg2{};
-struct Msg3{};
+struct Msg1 {};
+struct Msg2 {};
+struct Msg3 {};
 
 class MyStateMachine { 
 public:
