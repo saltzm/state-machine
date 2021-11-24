@@ -8,11 +8,15 @@ States in the state machine are referred to as "behaviors" and events are referr
 I made this for fun so I did everything in the quickest way I could, so there may be issues or missing features. Feel free to file issues or make PRs if 
 you'd like.
 
-# [Examples](https://godbolt.org/z/oKWTTWqrP)
+# Examples
+
+Compiling versions of these can be found [here](https://godbolt.org/z/oKWTTWqrP).
 
 ## State machine with a single state that accepts a single message type
 
 ```c++
+struct Msg1{};
+
 class SingleStateSingleMessageMachine { 
 public:
     // Behaviors
@@ -59,6 +63,10 @@ int main() {
 ## State machine with a multiple states and message types
 
 ```c++
+struct Msg1{};
+struct Msg2{};
+struct Msg3{};
+
 class MyStateMachine { 
 public:
     // Behaviors
