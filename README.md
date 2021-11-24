@@ -5,6 +5,9 @@ according to an interface that's not currently well-documented in the header but
 
 States in the state machine are referred to as "behaviors" and events are referred to as "messages".
 
+I made this for fun so I did everything in the quickest way I could, so there may be issues or missing features. Feel free to file issues or make PRs if 
+you'd like.
+
 # [Examples](https://godbolt.org/z/oKWTTWqrP)
 
 ## State machine with a single state that accepts a single message type
