@@ -1,4 +1,4 @@
-# Modern C++ State Machine
+# Overview
 
 This is a tiny C++ API for writing state machines. It consists of a single header with a single class `StateMachine`. Users must define their StateMachine 
 according to an interface that's not currently well-documented in the header but which should be clear from the following examples. 
