@@ -1,6 +1,6 @@
 # Modern C++ State Machine
 
-This is a tiny C++ state machine implementation. It consists of a single header with a single class `StateMachine`. Users must define their StateMachine 
+This is a tiny C++ API for writing state machines. It consists of a single header with a single class `StateMachine`. Users must define their StateMachine 
 according to an interface that's not currently well-documented in the header but which should be clear from the following examples. 
 
 States in the state machine are referred to as "behaviors" and events are referred to as "messages".
